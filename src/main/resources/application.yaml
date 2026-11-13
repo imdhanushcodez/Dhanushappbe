@@ -7,9 +7,9 @@ spring:
   application:
     name: Dhanushappbe
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/dhanushdb}
-    username: ${DB_USER:postgres}
-    password: ${DB_PASSWORD:root}
+    url: ${DB_URL:jdbc:postgresql://ep-late-paper-b3vm1l5h-pooler.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require}
+    username: ${DB_USER:neondb_owner}
+    password: ${DB_PASSWORD:npg_syOVg9i2uFnR}
     hikari:
       maximum-pool-size: 5
       minimum-idle: 1
