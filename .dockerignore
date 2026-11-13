@@ -12,10 +12,13 @@ target/
 .classpath
 .project
 
-# Git
+# Git and Environment
 .git/
 .gitignore
 .gitattributes
+.env
+.env.*
+*.env
 
 # Uploads and temporary files
 uploads/
