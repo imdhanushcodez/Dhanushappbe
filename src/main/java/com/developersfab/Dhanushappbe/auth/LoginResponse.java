@@ -15,5 +15,6 @@ public class LoginResponse {
     private String mobile;
     private String name;
     private String profilePhotoUrl;
+    private String token;
 }
 

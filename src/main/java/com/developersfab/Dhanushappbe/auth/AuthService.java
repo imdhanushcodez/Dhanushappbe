@@ -131,6 +131,7 @@ public class AuthService {
                 .mobile(user.getMobile())
                 .name(user.getName())
                 .profilePhotoUrl(user.getProfilePhotoUrl())
+                .token(jwt)
                 .build();
     }
 
